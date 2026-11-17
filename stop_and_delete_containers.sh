@@ -1,6 +1,4 @@
-docker stop banco-redis || true
-docker rm banco-redis || true
-docker stop web-app || true
-docker rm web-app || true
-docker stop rede-app || true
-docker rm rede-app || true
+./automated_demos/stop_remove_redis.sh
+./automated_demos/stop_remove_web_app.sh
+
+docker network rm rede-app --force
