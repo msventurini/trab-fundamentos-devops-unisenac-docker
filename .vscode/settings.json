@@ -1,0 +1,33 @@
+{
+    "chat.agent.enabled": false,
+    "chat.implicitContext.includeActiveEditor": false,
+    "chat.math.enabled": false,
+    "chat.agent.codeBlockProgress": false,
+    "chat.agent.collapseCompletedResponses": false,
+    "chat.agent.maxRequests": 0,
+    "chat.agent.sandbox.allowAutoApprove": false,
+    "chat.copilot.semanticSearch.enabled": false,
+    "chat.disableAIFeatures": true,
+    "inlineChat.affordance": "off",
+    "inlineChat.askInChat": false,
+    "editor.aiStats.enabled": false,
+    "git.addAICoAuthor": "off",
+    "telemetry.feedback.enabled": false,
+    "telemetry.editStats.details.enabled": false,
+    "telemetry.editStats.enabled": false,
+    "telemetry.editStats.showDecorations": false,
+    "telemetry.editStats.showStatusBar": false,
+    "editor.experimental.treeSitterTelemetry": false,
+    
+    "python.analysis.enablePerfTelemetry": false,
+    "python.analysis.reportExtraTelemetry": false,
+    
+    "python.analysis.aiCodeActions": {
+        "implementAbstractClasses": false,
+        "generateSymbol": false,
+        "convertFormatString": false,
+        "convertLambdaToNamedFunction": false,
+        "generateDocstring": false
+    },
+    "chat.agent.sandbox.network.allowNetwork": false,
+}
